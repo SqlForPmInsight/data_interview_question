@@ -17,6 +17,8 @@
  - 메달리온 아키텍쳐에 대해서 설명해주세요. (https://www.databricks.com/kr/glossary/medallion-architecture)
  - (과제 전형) 운영DB의 ERD와 데이터 발생규칙을 설명해주고 DW 플랫폼 아키텍쳐 디자인 및 발표. 개별 기술 스택 선정한 이유와 장단점을 고려해야함.
  - kafka offset 전략에 대해서 설명해주세요.
+ - Spark의 Join 전략에 대해서 설명해주세요.
+ - HDFS의 생태계에 대해서 설명해주시고, 스몰파일 이슈에 대해서 설명해주세요.
 
 
 ### 3. 데이터 분석 직군 면접 대비 질문 모음
