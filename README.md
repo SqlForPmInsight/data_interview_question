@@ -31,6 +31,7 @@
  - 데드락이 발생하는 이유를 설명해주시고 방지책에 대해서 설명해주세요.
  - OSI 7 Layer의 계층별로 목적과 명칭을 설명해주세요.
  - DNS 서버의 종류와 그 역할에 대해서 설명해주세요.
+ - (기술면접에서 만난 질문) SOLID 원칙이란? 제시된 코드를 SOLID 기반으로 코드리뷰하고 개선점을 알려주세요.
 
 
 by breahcers (https://www.threads.com/@breachers_data)
