@@ -39,3 +39,9 @@ by breahcers (https://www.threads.com/@breachers_data)
 
 
 TODO: 추후 질문별로 인덱싱하기
+
+
+레퍼런스
+ - CS 공부: https://github.com/jbee37142/Interview_Question_for_Beginner
+ - 하용호님 자료: https://www.slideshare.net/yongho
+ - 변성윤님 데싸 질문 리스트: https://github.com/zzsza/Datascience-Interview-Questions?tab=readme-ov-file
