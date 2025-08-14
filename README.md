@@ -33,13 +33,19 @@
  - DNS 서버의 종류와 그 역할에 대해서 설명해주세요.
  - (기술면접에서 만난 질문) SOLID 원칙이란? 제시된 코드를 SOLID 기반으로 코드리뷰하고 개선점을 알려주세요.
 
+### 5. 이외 기본 인성/태도 질문
+ - 본인이 주변 동료들로 부터 들어왔던 장/단점은?
+ - 잘 맞는다고 느꼈던 팀장의 스타일은?
+ - 협업하기 어렵다고 느꼈던 사람들의 스타일은?
+
 
 by breahcers (https://www.threads.com/@breachers_data)
 
 
 
-TODO: 추후 질문별로 인덱싱하기
 
+
+-----
 
 레퍼런스
  - CS 공부: https://github.com/jbee37142/Interview_Question_for_Beginner
