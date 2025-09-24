@@ -42,7 +42,9 @@
  - 협업하기 어렵다고 느꼈던 사람들의 스타일은?
 
 
-by breahcers (https://www.threads.com/@breachers_data)
+by breahcers 
+ - thread: https://www.threads.com/@breachers_data
+ - youtube: https://www.youtube.com/@Breachers-q6d
 
 
 
