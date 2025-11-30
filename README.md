@@ -1,55 +1,70 @@
-백엔드/프론트 직군과 다르게 데이터 직군은 직군별 준비 방법과 올바르게 대비하기 위한 자료를 찾아보기가 힘듭니다. 
-그래서 만들어봤습니다.
+# 데이터 엔지니어 면접 대비 레포지토리 by breahcers
+
+백엔드/프론트 직군과 다르게 데이터 직군은 직군별 준비 방법과 올바르게 대비하기 위한 자료를 찾아보기가 힘듭니다. 그래서 만들어봤습니다.
 데이터 직군을 준비하는 사람들을 위한 면접 질문 모음집
-(함께 컨트리뷰션 해나가실 브리쳐들을 찾습니다 data.pelican.joe@gmail.com로 연락주세요!)
+
+이 레포는 **데이터 엔지니어** (데이터 플랫폼 / 데이터 인프라 / 데이터 파이프라인) 면접 대비를 위해 Spark, Hadoop, Kafka, Cloud, Airflow 등을 체계적으로 정리한 기술 노트 모음입니다. 실제 면접 질문, 개념 정리, 아키텍처, CS 기반 질문, 경험 기반 답변 구조 등을 포함하고 있습니다.
+
+데이터엔지니어 인터뷰 준비 레포에 함께 컨트리뷰션 해나가실 브리쳐들을 찾습니다 data.pelican.joe@gmail.com로 연락주세요   
+- Youtube  https://www.youtube.com/@Breachers-q6d  
+- Thread   https://www.threads.com/@breachers_data   
+- Inflearn  https://www.inflearn.com/users/174721/@breachers   
 
 
-### 1. 데이터 직군 면접 대비 질문 모음 (공통)
- - 정규화에 대해서 설명해주세요. 3NF란? (https://www.korecmblog.com/blog/database-normalization-3-2nf-3nf-bcnf)
- - 비정규화를 해야하는 상황에는 어떤 상황이 있고 그 이유는 무엇인지 설명해주세요.
- - 최근 관심을 두고 있는 관련 기술 스택과, 해당 기술 스택관련해서 더 알아보기 위해 직접 해본 내용이 있다면 공유해주세요.
+## 구성
+
+* **1\_hadoop** — HDFS, NameNode, MapReduce, YARN
+* **2\_spark** — Shuffle, Skew, Join 전략, Catalyst, 최적화
+* **3\_airflow** — 스케줄링, DAG 설계
+* **5\_kafka** — Partition, Offset, Rebalancing, ISR, Exactly-once
+* **6\_cloud** — GCP, AWS, Snowflake
+* **7\_ops** — Docker, K8s, Git, dbt
+* **8\_interview** — 아키텍처/CS 기반/PS 기반 면접 질문
+* **9\_etc** — SQL, Reference 등
+
+## 목적
+
+* 데이터 엔지니어 면접 대비를 빠르게 하고 싶은 사람
+* 대규모 데이터 시스템의 핵심 개념을 구조화하고 싶은 사람
+* 실제 경험과 시스템 설계 질문을 연결해서 답변하고 싶은 사람
+
+## 문의
+
+이 레포에 컨트리뷰터로 참여하고 싶으시거나 질문이 있으면 언제든 연락주세요.
+**📧 data.pelican.joe@gmail.com**
+- 기여시 명단 등록 및 별도 인터뷰 준비 자료 공유 혜택을 드립니다
+
+<br><br>
+<br><br>
+<br><br>
 
 
-### 2. 데이터 엔지니어 직군 면접 대비 질문 모음
- - 스타스키마와 스노우플레이크 스키마 간의 차이점을 설명해 주세요. (https://yozm.wishket.com/magazine/detail/3061/)
- - DW 배치 수행시 데이터 정합성 확보 전략에 대해서 설명해주세요.
- - OLTP와 OLAP DB의 특성에 대해서 설명해주세요. (https://velog.io/@ljs7463/OLTP%EC%99%80-OLAPDWBI-%EB%B9%84%EA%B5%90%ED%95%98%EA%B8%B0)
- - 메달리온 아키텍쳐에 대해서 설명해주세요. (https://www.databricks.com/kr/glossary/medallion-architecture)
- - (과제 전형) 운영DB의 ERD와 데이터 발생규칙을 설명해주고 DW 플랫폼 아키텍쳐 디자인 및 발표. 개별 기술 스택 선정한 이유와 장단점을 고려해야함.
- - kafka offset 전략에 대해서 설명해주세요.
- - Spark의 Join 전략에 대해서 설명해주세요.
- - HDFS의 생태계에 대해서 설명해주시고, 스몰파일 이슈에 대해서 설명해주세요.
+# Data Engineering Interview Notes
 
+This repository organizes core concepts and interview questions for  
+Data Engineering roles (Data Platform, Data Infrastructure, Pipeline Engineering).
 
-### 3. 데이터 분석 직군 면접 대비 질문 모음
- - AARRR 프레임워크에 대해서 설명해주세요.
- - A/B 테스트에 대해서 설명해주세요. 추가로 p-value에 대해서 아는대로 설명해주세요
+It includes structured notes on Spark, Hadoop, Kafka, Cloud, Airflow,  
+distributed systems, and practical interview questions.
 
+## Structure
 
-### 4. CS 기본 질문 모음
- - www.naver.com을 실행했을 때 벌어지는 일을 순서대로 설명해주세요.
- - 인덱스에 대해서 설명해주세요.
- - 비관계형 데이터베이스와 관계형 데이터베이스의 차이점에 대해서 설명해주세요. 장단점은? 각각 어떤 상황에 사용해야할까요?
- - 프로세스와 쓰레드의 차이점에 대해서 설명해주세요.
- - 데드락이 발생하는 이유를 설명해주시고 방지책에 대해서 설명해주세요.
- - OSI 7 Layer의 계층별로 목적과 명칭을 설명해주세요.
- - DNS 서버의 종류와 그 역할에 대해서 설명해주세요.
- - (기술면접에서 만난 질문) SOLID 원칙이란? 제시된 코드를 SOLID 기반으로 코드리뷰하고 개선점을 알려주세요.
+- **1_hadoop** — HDFS, NameNode, MapReduce, YARN  
+- **2_spark** — Shuffle, Partitioning, Skew, Join optimization, Catalyst  
+- **3_airflow** — DAG design, scheduling concepts  
+- **5_kafka** — Partitioning, Offset, Rebalancing, ISR, Exactly-once  
+- **6_cloud** — GCP, AWS, Snowflake  
+- **7_ops** — Docker, Kubernetes, Git, dbt  
+- **8_interview** — Architecture / CS / Problem-Solving interview questions  
+- **9_etc** — SQL and additional references
 
-### 5. 이외 기본 인성/태도 질문
- - 본인이 주변 동료들로 부터 들어왔던 장/단점은?
- - 잘 맞는다고 느꼈던 팀장의 스타일은?
- - 협업하기 어렵다고 느꼈던 사람들의 스타일은?
+## Purpose
 
+- Prepare effectively for Data Engineering interviews  
+- Understand core distributed system concepts  
+- Connect real-world experience with system design questions
 
-by breahcers (https://www.threads.com/@breachers_data)
+## Contact
 
-
-
-
-
------
-
-레퍼런스
- - CS 공부: https://github.com/jbee37142/Interview_Question_for_Beginner
- - 하용호님 자료: https://www.slideshare.net/yongho
+For contributions or questions, feel free to reach out.  
+**Email:** data.pelican.joe@gmail.com
